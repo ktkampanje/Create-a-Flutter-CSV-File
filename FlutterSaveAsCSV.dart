@@ -7,7 +7,6 @@ import 'package:flutter_file_dialog/flutter_file_dialog.dart';
 import 'dart:io';
 
 Future newCSVFile(List<CattleRecord>? csvDoc) async {
-  // Add your function code here!
   csvDoc ??= [];
 
   // Define the CSV header
